@@ -2,7 +2,7 @@
 Online Shopper Intention is a classification problem to predict the price range of a phone given its attributes.
 
 # Dataset
-The dataset can be found in [Kaggle](https://www.kaggle.com/iabhishekofficial/mobile-price-classification).
+The dataset can be found in [Kaggle](https://www.kaggle.com/roshansharma/data).
 
 # Process
 1. Data Preprocessing
