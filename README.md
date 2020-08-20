@@ -1,20 +1,23 @@
 # Project Summary 
-Online Shopper Intention is a classification problem to predict the price range of a phone given its attributes.
+Online Shopper Intention is a data cleaning and exploratory project about customer behaviour in online shopping websites.
+The insights can be used to perform Marketing Analytics and understand the KPIs and Metrics related to it.
 
 # Dataset
-The dataset can be found in [Kaggle](https://www.kaggle.com/roshansharma/data).
+The dataset can be found in [Kaggle](https://www.kaggle.com/roshansharma/online-shoppers-intention).
 
 # Process
 1. Data Preprocessing
+- Wrong values
+- Missing values
+- Convert categorical variables to correct order
 2. Data Exploration
-- General view of the phone market
-- Relationship between phone attributes and price
-- Attributes of high-priced vs. low-priced phones
-3. Model Training using TensorFlow
+- Univariate Analysis
+  - Dependent Variable (Revenue)
+  - Independent Variables (Numerical/ Categorical)
+- Bivariate Variable
 
-# Findings
-1. RAM has the most effect on phone price. The higher the RAM, the higher the price
-2. Other attributes do not have significant effects on phone price. However, high-priced phones do have a slightly better:
-- Battery ('battery_power', 'talk_time')
-- Camera ('pc', 'px_height','px_width')
-- Memory ('int_memory','ram')
+# Key Findings
+1. Conversion Rate: 18.33 %
+2. Months with high visits: May, November
+3. Most customers are returning customers
+4. Customers mostly visit on weekdays
